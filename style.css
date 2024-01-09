@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #1F1F1F;
+    color: #cfcfcf;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    height: 100vh;
+}
+
+header {
+    height: 70px; 
+    margin-inline: auto;
+    margin-bottom: 25px;
+   
+    display: flex;
+    justify-content: center;
+
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    background: rgb(96, 96, 255);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0px 100px;
+    text-align: center;
+}
+
+
+
